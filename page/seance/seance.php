@@ -2,10 +2,9 @@
 <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/sport-carousel/carousel1.jpeg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>Services</h2>
+        <h2>Séances</h2>
         <ol>
-          <li><a href="index.php">Home</a></li>
-          <li>Services</li>
+          <li>Séances</li>
         </ol>
 
       </div>

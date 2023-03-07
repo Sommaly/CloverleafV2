@@ -65,17 +65,20 @@
         ?>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.php" class="<?php echo ($route=="" ? "active" : "") ?>">Accueil</a></li>
-
-          <li><a href="index.php?route=sport-list" class="<?php echo ($route=="sport-list"  ? "active" : "") ?>">Sports</a></li>
           <?php 
           if(isset($_SESSION["login"])){
             ?>
+          <li><a href="index.php?route=sport-list" class="<?php echo ($route=="sport-list"  ? "active" : "") ?>">Sports</a></li>
           <li><a href="index.php?route=seance-list" class="<?php echo ($route=="seance-list"  ? "active" : "") ?>">Séances</a></li>
-          <li><a href="index.php?route=profil-profil" class="<?php echo ($route=="profil-profil"  ? "active" : "") ?>">Profil</a></li>
+          <li><a href="index.php?route=profil" class="<?php echo ($route=="profil"  ? "active" : "") ?>">Profil</a></li>
           <li><a href="index.php?route=logout" class="<?php echo ($route=="logout"  ? "active" : "") ?>">Se déconnecter</a></li>
-          <?php } ?>
+          <?php } else {
+            ?>
+          <li><a href="index.php" class="<?php echo ($route=="" ? "active" : "") ?>">Accueil</a></li>
+          <li><a href="index.php?route=sport-list" class="<?php echo ($route=="sport-list"  ? "active" : "") ?>">Sports</a></li>
           <li><a data-aos="fade-up" data-aos-delay="200" href="#se-connecter" class="btn-get-started">Se connecter</a>
+          <?php }
+            ?>
         </ul>
       </nav><!-- .navbar -->
 
@@ -182,7 +185,11 @@ if (isset($_SESSION["success"])){
 
     <!-- ======= SE CONNECTER ======= -->
     <?php
-      include('page/auth/login.php')
+ 
+    if(!(isset($_SESSION["login"])) and ($route=="" ? "active" : "")){
+ 
+      include('page/auth/login.php');
+    }
     ?>
   
   <!-- ======= Footer ======= -->

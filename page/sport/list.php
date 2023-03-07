@@ -4,7 +4,6 @@
 
         <h2>Sports</h2>
         <ol>
-          <li><a href="index.php">Accueil</a></li>
           <li>Sports</li>
         </ol>
 
