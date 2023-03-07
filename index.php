@@ -76,7 +76,7 @@
             ?>
           <li><a href="index.php" class="<?php echo ($route=="" ? "active" : "") ?>">Accueil</a></li>
           <li><a href="index.php?route=sport-list" class="<?php echo ($route=="sport-list"  ? "active" : "") ?>">Sports</a></li>
-          <li><a data-aos="fade-up" data-aos-delay="200" href="#se-connecter" class="btn-get-started">Se connecter</a>
+          <li><a data-aos="fade-up" data-aos-delay="200" href="index.php#se-connecter" class="btn-get-started">Se connecter</a>
           <?php }
             ?>
         </ul>
