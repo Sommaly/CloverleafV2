@@ -44,7 +44,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="accueil.php" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/montroland.png" alt="">
         <h1>Lycée Pasteur Mont Roland<span>.</span></h1>
@@ -71,10 +71,9 @@
           <?php 
           if(isset($_SESSION["login"])){
             ?>
-          <li><a href="seances.php
-          ">Séances</a></li>
-          <li><a href="profil.php
-          ">Profil</a></li>
+          <li><a href="index.php?route=seance-list" class="<?php echo ($route=="seance-list"  ? "active" : "") ?>">Séances</a></li>
+          <li><a href="index.php?route=profil-profil" class="<?php echo ($route=="profil-profil"  ? "active" : "") ?>">Profil</a></li>
+          <li><a href="index.php?route=logout" class="<?php echo ($route=="logout"  ? "active" : "") ?>">Se déconnecter</a></li>
           <?php } ?>
           <li><a data-aos="fade-up" data-aos-delay="200" href="#se-connecter" class="btn-get-started">Se connecter</a>
         </ul>
@@ -156,6 +155,21 @@ if (isset($_SESSION["success"])){
            case "sport-list":
             include("page/sport/list.php") ;
             break;
+          case "seance-list":
+            include("page/seance/seance.php") ;
+            break;
+          case "profil":
+            include("page/profil/profil.php") ;
+            break;
+          case "check_login":
+            include("page/auth/check_login.php") ;
+            break;
+          case "login":
+            include("page/auth/login.php") ;
+            break;
+          case "logout":
+            include("page/auth/logout.php") ;
+            break;
           }
         }
         else{
@@ -164,6 +178,12 @@ if (isset($_SESSION["success"])){
 
       ?>
 </main><!-- End #main -->
+
+
+    <!-- ======= SE CONNECTER ======= -->
+    <?php
+      include('page/auth/login.php')
+    ?>
   
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
