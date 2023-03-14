@@ -9,12 +9,14 @@
 // ordre de mission
 $requete = $mysqlConnection->prepare('SELECT * FROM user where login = :login and password=:password');
 //execution de la requete
-$requete->execute( ["login"=>$_POST["login"],"password"=>sha1($_POST["password"])]);
-session_start();
+$requete->execute(["login"=>$_POST["login"],"password"=>$_POST["password"]]);
 $user = $requete->fetch();
+
 if ($user){
   
     $_SESSION["login"]=$_POST["login"];
+    $_SESSION["statut"]=$user["is_admin"];
+
     header("location:index.php?route=profil");
   
 }

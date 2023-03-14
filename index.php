@@ -85,6 +85,7 @@
     </div>
   </header><!-- End Header -->
   <?php
+  
 if(isset($_GET["route"])==false){
   ?>
     <!-- ======= Hero Section ======= -->
