@@ -15,21 +15,14 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row position-relative">
-
-          <div class="col-lg-7 about-img" style="background-image: url(assets/img/about.jpg);"></div>
+          
+<!-- ======= Image a ajouter entre les "" ======= -->
+          <div class="col-lg-7 about-img" style= ""></div>
 
           <div class="col-lg-7">
             <h2>Titre Sport</h2>
             <div class="our-story">
-              <h4>Phrase</h4>
-              <h3>slogan</h3>
-              <p>présentation du sports</p>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> <span>sport</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>blabla</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>sport</span></li>
-              </ul>
-              <p>blabla sport</p>
+              
 
              
             </div>
