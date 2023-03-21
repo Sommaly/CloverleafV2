@@ -1195,12 +1195,14 @@ section {
   font-weight: 700;
   font-family: var(--font-secondary);
   margin: 30px 0;
+  
 }
 
 @media (min-width: 991px) {
   .about h2 {
     max-width: 65%;
     margin: 0 0 80px 0;
+    color:#059652;
   }
 }
 
