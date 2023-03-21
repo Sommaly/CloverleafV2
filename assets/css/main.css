@@ -2694,9 +2694,8 @@ section {
 }
 
 .btn_center{
+  margin-top: 2rem;
   text-align: center;
-  bottom  : 0;
-  
 }
 
 .btn:hover{
