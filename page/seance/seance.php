@@ -21,9 +21,21 @@
               <div class="icon">
                 <i class="fa-solid fa-mountain-city"></i>
               </div>
-              <h3>Nesciunt Mete</h3>
+              <h3>Date de Séance</h3>
+              <h4>Les horaires</h4>
               <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <div class="btn_center">
+              <button type="button" class="btn">S'enregistrer</button>
+             
+
+             
+
+              
+
+              
             </div>
+
+            
           </div><!-- End Service Item -->
 
           </div><!-- End Service Item -->
