@@ -1,6 +1,6 @@
 <?php
 define("SERVER", "localhost");
-define("DBNAME", "tp_php_sio");
+define("DBNAME", "projet");
 define("USER", "root");
 define("PASSWORD", "");
 ?>
