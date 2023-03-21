@@ -2700,10 +2700,7 @@ section {
 }
 
 .btn:hover{
-
-
   transform: scale(1.1);
   box-shadow: 5px 6px 6px 2px #e9ecef;
-
 }
 
