@@ -18,7 +18,6 @@
     <div class="col-md-8">
       <div class="card-body card-body-custom">
         <h5 class="profil_prenom">Prénom</h5>
-        <h5 class="profil_nom">Nom</h5>
         <p class="card-text">Promotion</p>
       </div>
     </div>
