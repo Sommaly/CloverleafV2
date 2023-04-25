@@ -10,16 +10,21 @@
       </div>
     </div>
 
-    <div class="btn_center">
-              <button type="button" class="btn">Créer</button>
-              <button type="button" class="btn">Duppliquer</button>
-              <button type="button" class="btn">Supprimer</button>
+    
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
               
       <div class="container" data-aos="fade-up">
 
+      <div class="btn_center">
+              <button type="button" class="btn">Créer</button>
+              
+              <button type="button" class="btn">Duppliquer</button>
+              <button type="button" class="btn">Supprimer</button>
+
+              <div class="btn_center">
+</div>
      
         <div class="row gy-4">
 
