@@ -1,7 +1,7 @@
  <!-- ======= Breadcrumbs ======= -->
 
- 
 
+  
  <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/sport-carousel/carousel1.jpeg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
@@ -13,20 +13,20 @@
       </div>
     </div><!-- End Breadcrumbs -->
 
-    <div class="btn_center">
-    <a href="index.php?route=create-seance"><button class="btn">Créer</button></a>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row position-relative">
+
+        <div class="btn_center">
+      <a href="index.php?route=create-sport"><button class="btn">Créer</button></a>
               
               <button type="button" class="btn">Duppliquer</button>
               <button type="button" class="btn">Supprimer</button>
 
               <div class="btn_center">
 </div>
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row position-relative">
           
 <!-- ======= Image a ajouter entre les "" ======= -->
           <div class="col-lg-7 about-img" style= ""></div>
