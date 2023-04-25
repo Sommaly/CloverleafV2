@@ -14,7 +14,7 @@
     </div><!-- End Breadcrumbs -->
 
     <div class="btn_center">
-    <a href="index.php?route=create-atelier"><button class="btn btn-primary">Créer</button></a>
+    <a href="index.php?route=create-seance"><button class="btn">Créer</button></a>
               
               <button type="button" class="btn">Duppliquer</button>
               <button type="button" class="btn">Supprimer</button>

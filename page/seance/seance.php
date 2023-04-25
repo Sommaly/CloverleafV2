@@ -18,7 +18,7 @@
       <div class="container" data-aos="fade-up">
 
       <div class="btn_center">
-              <button type="button" class="btn">Créer</button>
+      <a href="index.php?route=create-atelier"><button class="btn">Créer</button></a>
               
               <button type="button" class="btn">Duppliquer</button>
               <button type="button" class="btn">Supprimer</button>

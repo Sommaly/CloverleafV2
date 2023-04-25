@@ -174,6 +174,12 @@ if (isset($_SESSION["success"])){
           case "logout":
             include("page/auth/logout.php") ;
             break;
+          case "create-seance":
+            include("page/seance/create-seance.php") ;
+            break;
+          case "create-sport":
+            include("page/sport/create-sport.php") ;
+            break;
           }
         }
         else{
