@@ -1,3 +1,5 @@
+
+
 <!-- ======= Breadcrumbs ======= -->
 <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/sport-carousel/carousel1.jpeg');">
   <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
@@ -17,7 +19,7 @@
     </div>
     <div class="col-md-8">
       <div class="card-body card-body-custom">
-        <h5 class="profil_prenom">Prénom</h5>
+        <h5 class="profil_prenom"><?php echo $_SESSION["login"] ?></h5>
         <p class="card-text">Promotion</p>
       </div>
     </div>
@@ -30,4 +32,4 @@
     <!-- ======= Blog Section ======= -->
     <section id="blog" class="blog">
       
-          <!-- End post list item -->
+    <!-- End post list item -->
