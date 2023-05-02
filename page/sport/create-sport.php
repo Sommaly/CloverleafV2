@@ -21,10 +21,15 @@
           <div class="col-lg-7 about-img" style= ""></div>
 
           <div class="col-lg-7">
-            <h2>Titre Sport</h2>
+            <h2><form action="index.php?route=store-categorie" method="post">
+                  <div class="form-group">
+                  <label for="libelle"></label>
+                  <input type="text" class="form-control" id="libelle" name="libelle" placeholder="Entrer le nom du sport">
+                  </div>
+</h2>
             <div class="our-story">
-              <h4></h4>
-              <h3></h3>
+
+            
               <p></p>
               <ul>
                 <li><i class="bi bi-check-circle"></i> <span></span></li>
