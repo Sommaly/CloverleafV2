@@ -32,9 +32,13 @@
             
               <p></p>
               <ul>
-                <li><i class="bi bi-check-circle"></i> <span></span></li>
-                <li><i class="bi bi-check-circle"></i> <span></span></li>
-                <li><i class="bi bi-check-circle"></i> <span></span></li>
+                <li><i class="bi bi-check-circle"></i> <span></span></li> <form action="index.php?route=store-categorie" method="post">
+                  <div class="form-group">
+                  <label for="libelle"></label>
+                  <input type="text" class="form-control" id="libelle" name="libelle" placeholder="Entrer la description du sport">
+                  </div>
+</h2>
+              
               </ul>
               <p></p>
 
