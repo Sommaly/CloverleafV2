@@ -7,7 +7,44 @@
           <li>Créer Sport</li>
         </ol>
 
-    
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row position-relative">
+
+          
+<!-- ======= Image a ajouter entre les "" ======= -->
+          <div class="col-lg-7 about-img" style= ""></div>
+
+          <div class="col-lg-7">
+            <h2>Titre Sport</h2>
+            <div class="our-story">
+              <h4></h4>
+              <h3></h3>
+              <p></p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span></span></li>
+                <li><i class="bi bi-check-circle"></i> <span></span></li>
+                <li><i class="bi bi-check-circle"></i> <span></span></li>
+              </ul>
+              <p></p>
+
+             
+            </div>
+          </div>
+
+        </div>
 
       </div>
+    </section>
+    <!-- End About Section -->
+      </div>
     </div>
+
+    
+
+    
